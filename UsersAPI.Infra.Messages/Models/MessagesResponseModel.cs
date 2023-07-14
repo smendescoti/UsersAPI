@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace UsersAPI.Application.Dtos.Responses
+namespace UsersAPI.Infra.Messages.Models
 {
-    public class LoginResponseDto
+    public class MessagesResponseModel
     {
-        public string? AccessToken { get; set; }
+        //TODO
     }
 }

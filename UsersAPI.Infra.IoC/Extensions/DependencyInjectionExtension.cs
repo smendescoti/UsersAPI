@@ -22,8 +22,7 @@ namespace UsersAPI.Infra.IoC.Extensions
             services.AddTransient<IAuthAppService, AuthAppService>();
             services.AddTransient<IUserDomainService, UserDomainService>();
             services.AddTransient<IUnitOfWork, UnitOfWork>();
-            services.AddTransient<DataContext>();
-
+      
             return services;
         }
     }
